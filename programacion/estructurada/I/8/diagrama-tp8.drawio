@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-04-11T23:36:00.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y9AEO4T2TpmdiJj5YC63" version="21.1.5" type="device">
+  <diagram name="Página-1" id="UYg_XiqrhU8jpHPHqo6a">
+    <mxGraphModel dx="1434" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lmvU6kp6eVTtvt2mdht-1" target="8lmvU6kp6eVTtvt2mdht-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lmvU6kp6eVTtvt2mdht-2" target="8lmvU6kp6eVTtvt2mdht-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-2" value="valor_hora, tiempo_trabajado, sueldo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lmvU6kp6eVTtvt2mdht-3" target="8lmvU6kp6eVTtvt2mdht-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-3" value="Ingreso valor_hora, tiempo_trabajado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8lmvU6kp6eVTtvt2mdht-4" target="8lmvU6kp6eVTtvt2mdht-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-4" value="sueldo =&amp;nbsp;valor_hora * tiempo_trabajado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8lmvU6kp6eVTtvt2mdht-5" value="Imprimo &quot;El sueldo es: &quot;, sueldo" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
