@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]) {
     setlocale(LC_ALL, "spanish");
     int dia, mes, anno;
     printf("Ingrese la fecha dia mes año: \n");
@@ -16,7 +15,7 @@ int main(int argc, char* argv[])
             printf("La fecha no es valida");
         }
     } else if (mes == 2) {
-        if (dia > 28 && anno % 400 != 0) {
+        if (dia > 28 && (anno % 400 != 0 && anno % 4 != 0)) {
             printf("La fecha no es valida");
         } else {
             printf("La fecha es valida");
